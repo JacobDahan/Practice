@@ -3,12 +3,12 @@ from collections import deque
 
 class Node:
     
-    def __init__(self, data : Union[list,tuple,str]):
+    def __init__(self, data : Union[list,tuple,str,float]):
         self.data = data
         self.left = self.right = None
        
        
-def dfs(node : "Node") -> List[Union[None,list,tuple,str]]:
+def dfs(node : "Node") -> List[Union[None,list,tuple,str,float]]:
     if not node: return []
     stack = [node]; visited = []
     while stack:
@@ -18,11 +18,11 @@ def dfs(node : "Node") -> List[Union[None,list,tuple,str]]:
         if curr_node.left: stack.append(curr_node.left)
     return visited
 
-def dfs_recursive(node : "Node") -> List[Union[None,list,tuple,str]]:
+def dfs_recursive(node : "Node") -> List[Union[None,list,tuple,str,float]]:
     if not node: return []
     return [node.data, *dfs_recursive(node.left), *dfs_recursive(node.right)] 
 
-def bfs(node : "Node") -> List[Union[None,list,tuple,str]]:
+def bfs(node : "Node") -> List[Union[None,list,tuple,str,float]]:
     if not node: return []
     queue = deque([node]); visited = []
     while queue:
@@ -31,7 +31,7 @@ def bfs(node : "Node") -> List[Union[None,list,tuple,str]]:
         if curr_node.right: queue.append(curr_node.right)
     return visited
 
-def dfs_includes(node : "Node", target : Union[list,tuple,str]) -> bool:
+def dfs_includes(node : "Node", target : Union[list,tuple,str,float]) -> bool:
     if not node: return False
     stack = [node]
     while stack:
@@ -41,12 +41,12 @@ def dfs_includes(node : "Node", target : Union[list,tuple,str]) -> bool:
         if curr_node.left: stack.append(curr_node.left)
     return False
 
-def dfs_recursive_includes(node : "Node", target : Union[list,tuple,str]) -> bool:
+def dfs_recursive_includes(node : "Node", target : Union[list,tuple,str,float]) -> bool:
     if not node: return False
     if node.data == target: return True
     return dfs_recursive_includes(node.left,target) or dfs_recursive_includes(node.right,target)
 
-def bfs_includes(node : "Node", target : Union[list,tuple,str]) -> bool:
+def bfs_includes(node : "Node", target : Union[list,tuple,str,float]) -> bool:
     if not node: return False
     queue = deque([node])
     while queue:
