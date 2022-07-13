@@ -2,11 +2,11 @@
 ## Solutions and notes to crack the coding interview
 ### Data Structures
 
-- [ ] Linked Lists
-- [ ] Circular Linked Lists
-- [ ] Doubly Linked Lists
+- [x] Linked Lists
+- [x] Circular Linked Lists
+- [x] Doubly Linked Lists
 - [ ] Arrays
-- [ ] Binary Trees
+- [x] Binary Trees
 - [ ] Binary Search Trees
 - [ ] Stacks
 - [ ] Bloom Filters
