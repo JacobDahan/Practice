@@ -7,15 +7,14 @@
 - [x] Doubly Linked Lists
 - [ ] Arrays
 - [x] Binary Trees
-- [ ] Binary Search Trees
-- [ ] Stacks
-- [ ] Bloom Filters
+- [x] Binary Search Trees
+- [ ] Heaps
+- [ ] Stacks/Queues
 ### Algorithms
 
-- [ ] Binary search
-- [ ] Binary Tree
-- [ ] DFS
-- [ ] BFS
+- [x] Binary search
+- [x] DFS
+- [x] BFS
 - [ ] Graphs
 - [ ] Two pointers
 - [ ] Dynamic Programming
