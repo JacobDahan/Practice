@@ -8,13 +8,13 @@
 - [ ] Arrays
 - [x] Binary Trees
 - [x] Binary Search Trees
-- [ ] Heaps
+- [x] Heaps
 - [ ] Stacks/Queues
+- [x] Graphs
 ### Algorithms
 
-- [x] Binary search
+- [ ] Binary search
 - [x] DFS
 - [x] BFS
-- [ ] Graphs
 - [ ] Two pointers
 - [ ] Dynamic Programming
