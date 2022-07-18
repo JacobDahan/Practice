@@ -2,20 +2,19 @@
 ## Solutions and notes to crack the coding interview
 ### Data Structures
 
-- [ ] Linked Lists
-- [ ] Circular Linked Lists
-- [ ] Doubly Linked Lists
+- [x] Linked Lists
+- [x] Circular Linked Lists
+- [x] Doubly Linked Lists
 - [ ] Arrays
-- [ ] Binary Trees
-- [ ] Binary Search Trees
-- [ ] Stacks
-- [ ] Bloom Filters
+- [x] Binary Trees
+- [x] Binary Search Trees
+- [x] Heaps
+- [ ] Stacks/Queues
+- [x] Graphs
 ### Algorithms
 
 - [ ] Binary search
-- [ ] Binary Tree
-- [ ] DFS
-- [ ] BFS
-- [ ] Graphs
+- [x] DFS
+- [x] BFS
 - [ ] Two pointers
 - [ ] Dynamic Programming
